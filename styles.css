@@ -1,0 +1,252 @@
+/* General Styles */
+*{box-sizing: border-box;}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1b1b1b;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+/* main */
+.main {
+    flex: 1;
+    width: 80%;
+    height: 90%;
+    color: #fff;
+    margin: 0 auto;
+    padding-left: 2%;
+    padding-bottom: 20%;
+}
+
+.section {
+    position: relative;
+    margin: 50px 0;
+    padding: 20px;
+    text-align: left;
+}
+
+.section img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+.video-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .video-container video {
+    width: 100%;
+  }
+
+/* Background Sections */
+.section:nth-child(1)::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    width: 500px;
+    height: 500px;
+    background: hsl(231, 7%, 37%);
+    border-radius: 50%;
+    filter: blur(180px);
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.section:nth-child(2)::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    width: 500px;
+    height: 500px;
+    background: hsl(231, 7%, 37%);
+    border-radius: 50%;
+    filter: blur(180px);
+    transform: translate(50%, -50%);
+    z-index: -1;
+}
+
+.section:nth-child(3)::before {
+    content: '';
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    width: 500px;
+    height: 500px;
+    background: hsl(231, 7%, 37%);
+    border-radius: 50%;
+    filter: blur(180px);
+    transform: translate(-50%, 50%);
+    z-index: -1;
+}
+
+/* Header Styles */
+.site-header {
+    position: relative;
+    color: #fff;
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    background-image: url("");
+    background-size: cover;
+    overflow: hidden;
+}
+
+.site-header::before {
+    content: '';
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    width: 500px;
+    height: 500px;
+    background: hsl(231, 7%, 37%);
+    border-radius: 50%;
+    filter: blur(180px);
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.site-branding img {
+    padding-top: 2%;
+    padding-right: 80%;
+    max-width: 5%;
+    height: 20%;
+    z-index: 1;
+    box-shadow: #000000;
+}
+
+.site-description {
+    width: 65%;
+    padding-left: 5%;
+    padding-top: 10%;
+    font-weight: bold;
+    font-size: 7vw;
+    text-align: left;
+    color: #ffffff;
+}
+
+/* Menu */
+.navigation-main-menu {
+    padding-top: 1%;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+.navigation-wrap {
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.navigation-wrap nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: right;
+}
+
+.navigation-wrap nav ul li {
+    margin: 0 15px;
+    font-size: 1vw;
+}
+
+.navigation-wrap nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.navigation-wrap nav ul li a:hover {
+    color: #ff0048;
+}
+
+/* Footer Styles */
+.footer {
+    color: #fff;
+    bottom: 0;
+    position:relative;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+    background-image: linear-gradient(to bottom right,hsla(231, 7%, 37%, 0.622), hsla(228, 10%, 20%, 0.485));
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+
+.footer .site-info {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.footer .site-info.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.footer .site-info .columns {
+    font-size: 14px;
+    flex: 1;
+    padding: 0 15px;
+}
+
+.footer .site-info .columns h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer .site-info .columns.small-12 {
+    text-align: center;
+    padding-top: 10px;
+    border-top: 1px solid #555;
+}
+/*ANIMATION*/
+
+/*p {
+  animation: CSSscrollReveal ease-in-out both;
+  animation-timeline: view();
+  animation-range: entry 50% cover 50%;
+}
+
+@keyframes CSSscrollReveal {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+*/
+.video-container,
+.section h1,
+.section img,
+.section p {
+    animation: CSSscrollReveal ease-in-out both;
+    animation-timeline: view();
+    animation-range: entry 50% cover 50%;
+  }
+  
+  @keyframes CSSscrollReveal {
+    from {
+      opacity: 0;
+      transform: translateX(-100%); /* Mover el elemento desde la izquierda */
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0); /* Mover el elemento a su posición original */
+    }
+  }
+  
+  
