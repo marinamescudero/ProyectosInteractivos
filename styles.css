@@ -92,7 +92,7 @@ body {
     left: 10%;
     width: 500px;
     height: 500px;
-    background: hsl(231, 7%, 37%);
+    background: hsl(342, 100%, 50%);
     border-radius: 50%;
     filter: blur(180px);
     transform: translate(-50%, -50%);
@@ -106,7 +106,7 @@ body {
     right: 10%;
     width: 500px;
     height: 500px;
-    background: hsl(231, 7%, 37%);
+    background: hsl(342, 100%, 50%);
     border-radius: 50%;
     filter: blur(180px);
     transform: translate(50%, -50%);
@@ -120,7 +120,7 @@ body {
     left: 50%;
     width: 500px;
     height: 500px;
-    background: hsl(231, 7%, 37%);
+    background: hsl(342, 100%, 50%);
     border-radius: 50%;
     filter: blur(180px);
     transform: translate(-50%, 50%);
@@ -146,7 +146,7 @@ body {
     left: 50%;
     width: 500px;
     height: 500px;
-    background: hsl(231, 7%, 37%);
+    background: hsl(342, 100%, 50%);
     border-radius: 50%;
     filter: blur(180px);
     transform: translate(-50%, -50%);
@@ -217,7 +217,7 @@ body {
     padding: 10px 0;
     text-align: center;
     width: 100%;
-    background-image: linear-gradient(to bottom right, hsla(231, 7%, 37%, 0.622), hsla(228, 10%, 20%, 0.485));
+    background-image: linear-gradient(to bottom right, hsl(342, 100%, 50%), hsla(228, 10%, 20%, 0.485));
     overflow: hidden;
     flex-shrink: 0;
 }
