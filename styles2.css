@@ -49,33 +49,7 @@ body {
     font-size: 14px;
     color: #fff;
 }
-/* stilos colores */
-.primary-colors .image-item.custom-spacing {
-    margin-right: 1%; 
-}
 
-.primary-colors .image-item.custom-size img {
-    max-width: 5vw; 
-}
-
-/* Reset */
-.primary-colors .image-item.custom-spacing:last-child {
-    margin-right: 0;
-}
-
-/* gradients */
-.gradients .image-item.custom-spacing {
-    margin-right: 1%; 
-}
-
-.gradients .image-item.custom-size img {
-    max-width: 5vw; 
-}
-
-/* Reset  */
-.gradients .image-item.custom-spacing:last-child {
-    margin-right: 0;
-}
 
 /* Otros estilos existentes */
 .video-container {
