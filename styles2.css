@@ -63,7 +63,7 @@
     font-style: italic;
   }
   
-
+/*FIn de zona Tipografica*/
 
 body {
     font-family: "Lato";
@@ -76,15 +76,133 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
+/*Main Home*/
+.main-content {
+    flex: 1;
+    width: 80%;
+    height: 90%;
+    color: #fff;
+    margin: 0 auto;
+    padding-top: 3%;
+    padding-left: 2%;
+    padding-bottom: 2%;
+}
+
+.content-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.imageHome-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.imageHome-item {
+    text-align: left;
+}
+
+.imageHome-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.content-text {
+    width: 40%;
+    text-align: left;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.contact-form {
+   
+    border-radius: 5px;
+    width: 40%;
+    text-align: left;
+}
+
+.contact-form label {
+    display: block;
+  
+}
+
+.contact-form input,
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #ff0048;
+}
+
+/* Background Sections Home */
+.content-section:nth-child(1)::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    width: 500px;
+    height: 500px;
+    background: hsl(342, 100%, 50% , 0.656);
+    border-radius: 50%;
+    filter: blur(180px);
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.content-section:nth-child(2)::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    width: 500px;
+    height: 500px;
+    background: hsl(342, 100%, 50% , 0.656);
+    border-radius: 50%;
+    filter: blur(180px);
+    transform: translate(50%, -50%);
+    z-index: -1;
+}
+
+.content-section:nth-child(3)::before {
+    content: '';
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    width: 500px;
+    height: 500px;
+    background: hsl(342, 100%, 50% , 0.656);
+    border-radius: 50%;
+    filter: blur(180px);
+    transform: translate(-50%, 50%);
+    z-index: -1;
+}
 
 
-/* main */
+/* main VIdeo/ Generic */
 .main {
     flex: 1;
     width: 80%;
     height: 90%;
     color: #fff;
     margin: 0 auto;
+    padding-top: 3%;
     padding-left: 2%;
     padding-bottom: 20%;
 }
