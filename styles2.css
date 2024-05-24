@@ -6,11 +6,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #1b1b1b;
+    background-color: #1b1b1b; 
+    /* Para insertar un fondo degradado, reemplaza esta línea por: 
+    background: linear-gradient(to bottom left, hsl(0, 0%, 0%) , hsla(342, 100%, 14%, 0.841),  hsl(342, 100%, 50%));*/
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
+
 
 /* main */
 .main {
