@@ -359,18 +359,19 @@ body {
 
 
 .site-branding img {
-    padding-top: 2%;
-    padding-right: 80%;
-    max-width: 5%;
-    height: 20%;
+    position: absolute;
+    left: 0;
+    padding-top: 1%;
+    margin-left: 5%;
+    width: 5vw;
     z-index: 1;
-    box-shadow: #000000;
+ 
 }
 
 .site-description {
     width: 65%;
     padding-left: 5%;
-    padding-top: 10%;
+    padding-top: 20%;
     font-weight: bold;
     font-size: 7vw;
     text-align: left;
@@ -379,12 +380,14 @@ body {
 
 /* Menu */
 .navigation-main-menu {
-    padding-top: 1%;
+    padding-top: 2%;
     position: fixed;
+    margin-left: 9%;
     width: 100%;
     top: 0;
     z-index: 1;
 }
+
 
 .navigation-wrap {
     max-width: 80%;
