@@ -186,16 +186,14 @@ body {
     padding: 4%; 
 }
 
+/* Estilos SOLO DE LOS cards */
 
-
-/* Otros estilos existentes */
-.video-container {
-    width: 90%;
-    margin: 0 auto;
+.section-cards .image-item {
+    margin-right: 2%; 
 }
-
-.video-container video {
-    width: 100%;
+.section-cards .image-item img {
+    max-width: 30vw;
+    padding: 4%; 
 }
 
 /* Background Sections *//*

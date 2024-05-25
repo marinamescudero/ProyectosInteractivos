@@ -83,7 +83,7 @@ body {
     height: 90%;
     color: #fff;
     margin: 0 auto;
-    padding-top: 3%;
+    padding-top: 10%;
     padding-left: 2%;
     padding-bottom: 2%;
 }
@@ -96,7 +96,22 @@ body {
     padding-bottom: 4%;
   
 }
-
+.difernt{
+    display: flex;
+    width: 100%;
+    position: absolute;
+    margin-top: 2%;
+    right: 0;
+    left: 0;
+    justify-content: center;
+    text-align: center;
+    background-image:linear-gradient(to bottom left, hsla(228, 10%, 20%, 0.485),  hsla(345, 55%, 4%, 0.656));
+}
+.difernt img{
+    width: 30%;
+    margin: 1%;
+    border-radius: 6%;
+}
 .imageHome-container {
     display: flex;
     flex-wrap: wrap;
@@ -121,7 +136,7 @@ body {
 
 .content-text {
     width: 70%; 
-    text-align: left;
+  
     font-family: "Lato";
     font-size: 18px;
     font-weight: 400;
@@ -131,11 +146,15 @@ body {
 
 
 .contact-form {
+    padding-top: 52%;
     border-radius: 5px;
     width: 40%;
     text-align: left;
+    margin: 0 auto;
 }
-
+.contact-form h1{
+    text-align: center;
+}
 .contact-form label {
     display: block;
 }
