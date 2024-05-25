@@ -70,8 +70,8 @@ body {
     margin: 0;
     padding: 0;
    background-color: #1b1b1b; 
-    /* Para insertar un fondo degradado, reemplaza esta línea por: 
-    background: linear-gradient(to bottom left, hsl(0, 0%, 0%) , hsla(342, 100%, 14%, 0.841),  hsl(342, 100%, 50%));*/
+    /* Para insertar un fondo degradado, reemplaza esta línea por: */
+    background-image: linear-gradient(to bottom left, hsla(228, 10%, 20%, 0.485),  hsla(342, 100%, 50%, 0.656));
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -182,7 +182,7 @@ body {
     width: 100%;
 }
 
-/* Background Sections */
+/* Background Sections *//*
 .section:nth-child(1)::before {
     content: '';
     position: absolute;
@@ -224,7 +224,7 @@ body {
     transform: translate(-50%, 50%);
     z-index: -1;
 }
-
+*/
 /* Header Styles */
 .site-header {
     position: relative;

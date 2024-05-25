@@ -70,8 +70,8 @@ body {
     margin: 0;
     padding: 0;
     background-color: #1b1b1b; 
-    /* Para insertar un fondo degradado, reemplaza esta línea por: 
-    background: linear-gradient(to bottom left, hsl(0, 0%, 0%) , hsla(342, 100%, 14%, 0.841),  hsl(342, 100%, 50%));*/
+    /* Para insertar un fondo degradado, reemplaza esta línea por: */
+    background-image: linear-gradient(to bottom left, hsla(228, 10%, 20%, 0.485),  hsla(342, 100%, 50%, 0.656));
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -100,6 +100,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
+    
 }
 
 .imageHome-item {
@@ -120,7 +121,6 @@ body {
 }
 
 .contact-form {
-   
     border-radius: 5px;
     width: 40%;
     text-align: left;
@@ -151,14 +151,14 @@ body {
     background-color: #ff0048;
 }
 
-/* Background Sections Home */
+/* Background Sections Home *//*
 .content-section:nth-child(1)::before {
     content: '';
     position: absolute;
     top: 50%;
     left: 10%;
-    width: 500px;
-    height: 500px;
+    width: 20px;
+    height: 20px;
     background: hsl(342, 100%, 50% , 0.656);
     border-radius: 50%;
     filter: blur(180px);
@@ -171,8 +171,8 @@ body {
     position: absolute;
     top: 50%;
     right: 10%;
-    width: 500px;
-    height: 500px;
+    width: 20px;
+    height: 20px;
     background: hsl(342, 100%, 50% , 0.656);
     border-radius: 50%;
     filter: blur(180px);
@@ -193,7 +193,7 @@ body {
     transform: translate(-50%, 50%);
     z-index: -1;
 }
-
+*/
 
 /* main VIdeo/ Generic */
 .main {
@@ -205,6 +205,7 @@ body {
     padding-top: 3%;
     padding-left: 2%;
     padding-bottom: 20%;
+    
 }
 .mainVideo {
     flex: 1;
@@ -256,7 +257,7 @@ body {
     width: 100%;
 }
 
-/* Background Sections */
+/* Background Sections *//*
 .section:nth-child(1)::before {
     content: '';
     position: absolute;
@@ -298,7 +299,7 @@ body {
     transform: translate(-50%, 50%);
     z-index: -1;
 }
-
+*/
 /* Header Styles */
 .site-header {
     position: relative;
@@ -388,6 +389,7 @@ body {
     max-width: 80%;
     margin: 0 auto;
     text-align: center;
+   
 }
 
 .navigation-wrap nav ul {
@@ -411,7 +413,7 @@ body {
 .navigation-wrap nav ul li a:hover {
     color: #ff0048;
 }
-/* Menú desplegable */
+/* Menú desplegable 
 .navigation-wrap nav ul li.dropdown ul.submenu {
     position: absolute;
     padding-top: 0,5%;
@@ -425,7 +427,7 @@ body {
 
 .navigation-wrap nav ul li.dropdown:hover ul.submenu {
     display: block;
-}
+}*/
 
 /* Footer Styles */
 .footer {
@@ -439,6 +441,7 @@ body {
     overflow: hidden;
     flex-shrink: 0;
     font-size: 13px;
+    
 }
 .footer .site-info.row {
     display: flex;
@@ -588,14 +591,14 @@ a:hover{
 
 }
 
-/* Background Sections */
+/* Background Sections *//*
 .section1::before {
     content: '';
     position: absolute;
     top: 50%;
     left: 10%;
-    width: 400px;
-    height: 400px;
+    width: 60px;
+    height: 60px;
     background: hsl(342, 100%, 50% , 0.656);
     border-radius: 50%;
     filter: blur(180px);
@@ -606,10 +609,10 @@ a:hover{
 .section2::before {
     content: '';
     position: absolute;
-    top: 100%;
+    top: 20%;
     right: 10%;
-    width: 350px;
-    height: 350px;
+    width: 70px;
+    height: 70px;
     background: hsl(342, 100%, 50% , 0.656);
     border-radius: 50%;
     filter: blur(180px);
@@ -620,10 +623,10 @@ a:hover{
 .section3::before {
     content: '';
     position: absolute;
-    top: 150%;
+    top: 10%;
     right: 10%;
-    width: 300px;
-    height: 300px;
+    width: 70px;
+    height: 70px;
     background: hsl(342, 100%, 50% , 0.656);
     border-radius: 50%;
     filter: blur(180px);
@@ -634,13 +637,13 @@ a:hover{
 .section4::before {
     content: '';
     position: absolute;
-    bottom: 70%;
+    bottom: 20%;
     left: 10%;
-    width: 450px;
-    height: 450px;
+    width: 70px;
+    height: 70px;
     background: hsl(342, 100%, 50% , 0.656);
     border-radius: 50%;
     filter: blur(180px);
     transform: translate(-50%, 50%);
     z-index: -1;
-}
+}*/
