@@ -121,6 +121,7 @@ body {
 .section {
     position: relative;
     text-align: left;
+   
 }
 
 .image-container {
@@ -144,7 +145,7 @@ body {
     font-size: 14px;
     color: #fff;
 }
-/* stilos colores */
+/* stilos SOLO DE LOS colores */
 .primary-colors .image-item.custom-spacing {
     margin-right: 1%; 
 }
@@ -171,6 +172,21 @@ body {
 .gradients .image-item.custom-spacing:last-child {
     margin-right: 0;
 }
+
+/* Estilos SOLO DE LOS TIPOGRAFIA */
+
+.typography-section .image-item.typography-spacing {
+    margin-right: 2%; 
+}
+.descriptionFont{
+    width: 40%;
+}
+ .image-item.typography-size img {
+    max-width: 25vw; 
+    padding: 4%; 
+}
+
+
 
 /* Otros estilos existentes */
 .video-container {
