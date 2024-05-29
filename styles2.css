@@ -681,135 +681,140 @@ a:hover{
     z-index: -1;
 }*/
 
+
 /* Media Queries */
 
-@media screen and (max-width: 1440px) {
-    /* Pc medium screens */
-    .site-description {
-        font-size: 6vw;
-    }
 
-    .navigation-wrap nav ul li {
-        font-size: 1.2vw;
-    }
-
-    .contact-form {
-        width: 50%;
-        padding-top: 60%;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    /* Pc small screens */
+@media only screen and (max-width: 768px) {
+    /* Estilos para dispositivos pequeños */
     .main-content {
-        width: 90%;
+      width: 90%;
+      padding-top: 15%;
+      padding-left: 5%;
     }
-
-    .site-description {
-        font-size: 8vw;
+  
+    .imageHome-item1 img {
+      max-width: 80%;
+      margin-left: 10%;
     }
-
-    .imageHome-item1 img,
+  
     .imageHome-item2 img {
-        max-width: 100%;
-        margin-left: 0;
+      max-width: 90%;
+      margin-left: 5%;
     }
-
-    .difernt img {
-        width: 50%;
+  
+    .content-text {
+      width: 90%;
+      font-size: 16px;
     }
-
+  
     .contact-form {
-        width: 70%;
-        padding-top: 70%;
+      width: 80%;
+      padding-top: 40%;
     }
-
-    .vtxt {
-        width: 80%;
+  
+    .site-header .background-image {
+      width: 70%;
+      left: 15%;
     }
-
-    .navigation-wrap nav ul li {
-        font-size: 1.5vw;
+  
+    .site-branding img {
+      width: 15vw;
+      margin-left: 3%;
     }
-}
-
-@media screen and (max-width: 768px) {
-    /*  tablets */
+  
     .site-description {
-        font-size: 10vw;
+      width: 80%;
+      font-size: 6vw;
+      padding-top: 30%;
     }
-
-    .site-header {
-        height: 400px;
+  
+    .navigation-main-menu {
+      margin-left: 3%;
     }
-
-    .contact-form {
-        width: 80%;
-        padding-top: 80%;
+  
+    .footer .site-info .columns {
+      font-size: 12px;
+      padding: 0 10px;
     }
-
-    .vtxt {
-        width: 100%;
+  
+    .about-main {
+      width: 90%;
+      padding-left: 5%;
     }
-
-    .navigation-wrap nav ul {
-        flex-direction: column;
-        align-items: flex-start;
+  
+    .about-section {
+      padding-left: 5%;
     }
-
-    .navigation-wrap nav ul li {
-        margin: 10px 0;
-        font-size: 2vw;
+  
+    .about-txt1 {
+      width: 80%;
     }
-}
-
-@media screen and (max-width: 480px) {
-    /* mobile phones */
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    /* Estilos para dispositivos grandes */
     .main-content {
-        width: 100%;
-        padding-left: 5%;
-        padding-right: 5%;
+      width: 70%;
+      padding-top: 5%;
     }
-
-    .site-description {
-        font-size: 12vw;
+  
+    .imageHome-item1 img {
+      max-width: 40%;
+      margin-left: 30%;
     }
-
-    .imageHome-item1 img,
+  
     .imageHome-item2 img {
-        max-width: 100%;
-        margin-left: 0;
+      max-width: 50%;
+      margin-left: 25%;
     }
-
-    .difernt img {
-        width: 70%;
+  
+    .content-text {
+      width: 60%;
+      font-size: 20px;
     }
-
+  
     .contact-form {
-        width: 90%;
-        padding-top: 90%;
+      width: 50%;
+      padding-top: 30%;
     }
-
-    .navigation-wrap nav ul {
-        flex-direction: column;
-        align-items: flex-start;
+  
+    .site-header .background-image {
+      width: 60%;
+      left: 20%;
     }
-
-    .navigation-wrap nav ul li {
-        margin: 15px 0;
-        font-size: 3vw;
+  
+    .site-branding img {
+      width: 8vw;
+      margin-left: 4%;
     }
-
-    .footer .site-info.row {
-        flex-direction: column;
-        align-items: center;
+  
+    .site-description {
+      width: 70%;
+      font-size: 8vw;
+      padding-top: 25%;
     }
-
-    .footer .site-info.row .column1,
-    .footer .site-info.row .column2,
-    .footer .site-info.row .column3,
-    .footer .site-info.row .column4 {
-        position: relative;
-        margin: 10px 0;
+  
+    .navigation-main-menu {
+      margin-left: 8%;
     }
-}
+  
+    .footer .site-info .columns {
+      font-size: 16px;
+      padding: 0 20px;
+    }
+  
+    .about-main {
+      width: 70%;
+      padding-left: 10%;
+    }
+  
+    .about-section {
+      padding-left: 25%;
+    }
+  
+    .about-txt1 {
+      width: 60%;
+    }
+  }
+  
